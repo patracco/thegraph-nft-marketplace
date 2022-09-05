@@ -20,3 +20,8 @@ Active Item is going to be the result of a function that involves ItemListed, It
 
 - added "startBlock", otherwise the graph will start indexing events since the beginning of the Ethereum network. It will take a long time and we don't want that. Instead, we want it to start indexing from right before we deployed the NftMarketplace contract
 - ti find the block, use Etherscan withe the contract address and copy/paste the block number - 1 (right before)
+
+# listing an item to the marketplace
+
+- firstly we go to hardhat-nft-marketplace (smart contract directory) and run the script mint-and-list-item to mint an nft to goerli with "yarn hardhat run scripts/mint-and-list-item.js --network goerli"
+- run a query on The Graph to see the item listed :-)
