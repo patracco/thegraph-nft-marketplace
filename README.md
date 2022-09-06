@@ -25,3 +25,8 @@ Active Item is going to be the result of a function that involves ItemListed, It
 
 - firstly we go to hardhat-nft-marketplace (smart contract directory) and run the script mint-and-list-item to mint an nft to goerli with "yarn hardhat run scripts/mint-and-list-item.js --network goerli"
 - run a query on The Graph to see the item listed :-)
+
+# querying Graph from frontenf
+
+- in nextjs run yarn add @apollo/client graphql.
+- NOTE: everytime a package has to do with frontend we do not install as --dev dependency
